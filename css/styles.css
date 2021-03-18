@@ -1,0 +1,25 @@
+/* Insert import font */
+
+
+/* -----Variables----- */
+
+/* Colors */
+
+:root{
+    --orange: #ffa500;
+    --offblack: #303030;
+    --offwhite: #fafafa;
+    --lightgrey: #F0F0F0;
+    --darkgrey: #E0E0E0;
+}
+
+/* Margins */
+
+:root{
+    --mg1: 1em;
+    --mg2: 2em;
+    --mg3: 3em;
+    --mg4: 4em;
+    --mg5: 5em;
+    --mg6: 6em;
+}
