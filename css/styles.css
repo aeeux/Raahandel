@@ -27,10 +27,11 @@
 /* fonts */
 
 :root{
-    --paragraph: 1em;
-    --Title1: 2em;
-    --Title2: 3em;
-    --Title3: 4em;
-    --desc: 5em;
-    --info: 6em;
+    --paragraph_om_os: 3.625em;
+    --contact_paragraph: 3125em;
+    --Title1: 6.25em;
+    --Title2: 5em;
+    --Title3: 3.8125em;
+    --desc: 5em; /*unknown*/
+    --info: 6em; /*unknown*/
 }
