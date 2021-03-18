@@ -27,8 +27,8 @@
 /* fonts */
 
 :root{
-    --paragraph_om_os: 3.625em;
-    --contact_font_size: 3.125em;
+    --font_about: 3.625em;
+    --font_contact: 3.125em;
     --Title1: 6.25em;
     --Title2: 5em;
     --Title3: 3.8125em;
