@@ -35,3 +35,11 @@
     --desc: 5em; /*unknown*/
     --info: 6em; /*unknown*/
 }
+
+/* Zindex */
+
+:root{
+    --back: 1;
+    --middle: 5;
+    --front: 10;
+}
