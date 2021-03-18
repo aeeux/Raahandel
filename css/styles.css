@@ -34,3 +34,15 @@
     --desc: 5em;
     --info: 6em;
 }
+
+h1{
+    font-family: 'Montserrat', 700;
+}
+
+h2{
+    font-family: 'Montserrat', 600;
+}
+
+p{
+    font-family: 'Montserrat', 400;
+}
