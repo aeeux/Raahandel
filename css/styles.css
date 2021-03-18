@@ -23,3 +23,14 @@
     --mg5: 5em;
     --mg6: 6em;
 }
+
+/* fonts */
+
+:root{
+    --paragraph: 1em;
+    --Title1: 2em;
+    --Title2: 3em;
+    --Title3: 4em;
+    --desc: 5em;
+    --info: 6em;
+}
