@@ -1,3 +1,4 @@
+
 #info-boks{
     background-color: #E0E0E0;
     width: 20em;
@@ -12,4 +13,35 @@
 
 #godkend-boks{
     color: #E0E0E0;
+}
+
+#h1{
+    color: #303030;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: 1em;
+}
+
+#h2{
+    color: #303030;
+    font-family: 'Montserrat';
+    margin-top: -40em;
+    margin-right: 4.5em;
+    font-size: 14px;
+}
+
+#p{
+    color: #303030;
+    font-family: 'Montserrat';
+}
+
+/* Margins */
+
+:root{
+    --mg1: 1em;
+    --mg2: 2em;
+    --mg3: 3em;
+    --mg4: 4em;
+    --mg5: 5em;
+    --mg6: 6em;
 }
