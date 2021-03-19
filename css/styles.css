@@ -1,8 +1,5 @@
 /* Insert import font */
-*
-{
-    font-family: 'Montserrat', 400, 600, 700;
-}
+
 
 /* -----Variables----- */
 
@@ -27,7 +24,7 @@
     --mg6: 6em;
 }
 
-/* fonts */
+/* Fonts */
 
 :root{
     --font_about: 3.625em;
@@ -46,3 +43,84 @@
     --middle: 5;
     --front: 10;
 }
+
+/* Extras */
+
+h1{
+    font-family: 'Montserrat', 700;
+}
+
+h2{
+    font-family: 'Montserrat', 600;
+    font-size: 18px;
+    font-weight: 500;
+    color: #002e5b;
+    border-bottom: 1px solid #fde428;
+    display: table;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: 'Montserrat', 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7c7c7c;
+    text-align: justify;
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+  }
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    }
+
+/* Index.html */
+
+  section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: table;
+    position: relative;
+  }
+
+  h1 {
+    margin: 0px auto;
+    display: table;
+    font-size: 26px;
+    padding: 40px 0px;
+    color: #002e5b;
+    text-align: center;
+  }
+
+  h1 span {
+    font-weight: 500;
+  }
+  
+  .content {
+    display: table;
+    margin-bottom: 60px;
+    width: 900px;
+  }
+  
+  
+  @media only screen and (max-width: 1440px) {
+    section {
+      max-width: 95%;
+    }
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .content {
+      width: 90%;
+    }
+  }
