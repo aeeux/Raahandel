@@ -1,0 +1,18 @@
+#info-boks{
+    background-color: #E0E0E0;
+    width: 20em;
+    height: 40em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#godkend-boks{
+    color: #E0E0E0;
+}
+
+#h2{
+    color: #303030;
+}
