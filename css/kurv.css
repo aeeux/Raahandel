@@ -1,3 +1,15 @@
+
+/* Margins */
+
+:root{
+    --mg1: 1em;
+    --mg2: 2em;
+    --mg3: 3em;
+    --mg4: 4em;
+    --mg5: 5em;
+    --mg6: 6em;
+}
+
 #info-boks{
     background-color: #E0E0E0;
     width: 20em;
@@ -5,8 +17,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: var(--mg1);
+    margin-right: var(--mg1);
 }
 
 #godkend-boks{
