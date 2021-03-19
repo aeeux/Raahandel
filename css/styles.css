@@ -48,6 +48,12 @@
 
 h1{
     font-family: 'Montserrat', 700;
+    margin: 0px auto;
+    display: table;
+    font-size: 26px;
+    padding: 40px 0px;
+    color: #002e5b;
+    text-align: center;
 }
 
 h2{
@@ -80,7 +86,7 @@ p{
   body {
     margin: 0px;
     padding: 0px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "montserrat", sans-serif;
     }
 
 /* Index.html */
@@ -91,15 +97,6 @@ p{
     margin: 0px auto;
     display: table;
     position: relative;
-  }
-
-  h1 {
-    margin: 0px auto;
-    display: table;
-    font-size: 26px;
-    padding: 40px 0px;
-    color: #002e5b;
-    text-align: center;
   }
 
   h1 span {
