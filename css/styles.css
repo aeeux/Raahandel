@@ -1,4 +1,15 @@
 /* Insert import font */
+h1{
+    font-family: 'Montserrat', 700;
+}
+
+h2{
+    font-family: 'Montserrat', 600;
+}
+
+p{
+    font-family: 'Montserrat', 400;
+}
 
 
 /* -----Variables----- */
@@ -42,16 +53,4 @@
     --back: 1;
     --middle: 5;
     --front: 10;
-}
-
-h1{
-    font-family: 'Montserrat', 700;
-}
-
-h2{
-    font-family: 'Montserrat', 600;
-}
-
-p{
-    font-family: 'Montserrat', 400;
 }
