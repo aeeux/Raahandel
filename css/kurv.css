@@ -25,15 +25,16 @@
 #h2{
     color: #303030;
     font-family: 'Montserrat';
+    font-size: 14px;
     margin-top: -40em;
     margin-right: 4.5em;
-    font-size: 14px;
-}
+    }
 
 #p{
     color: #303030;
     font-family: 'Montserrat';
-}
+    font-size: 10px;
+   }
 
 /* Margins */
 
