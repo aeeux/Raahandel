@@ -16,3 +16,11 @@
 #h2{
     color: #303030;
 }
+
+/* PC Query */
+
+@media only screen and (min-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }
