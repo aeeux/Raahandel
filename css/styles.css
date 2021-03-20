@@ -32,6 +32,8 @@
     --Title1: 6.25em;
     --Title2: 5em;
     --Title3: 3.8125em;
+    --Title4: 3em;
+    --Paragraphs: 1em;
     --desc: 5em; /*unknown*/
     --info: 6em; /*unknown*/
 }
@@ -59,7 +61,6 @@ h1{
     font-size: 26px;
     padding: var(--mg2) 0px;
     color: var(--offwhite);
-    text-align: center;
 }
 
 h2{
@@ -111,7 +112,7 @@ p{
 
 /* Index.html */
 
-#section-a .bg-image{
+#herosection .bg-image{
     position: absolute;
     background-image: url("/images/hero01.png");
     display: block;
@@ -119,8 +120,9 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0px;
+    margin-left: 58vh;
     width: 100%;
-    height: 800px;
+    height: 830px;
     z-index: -1;
     opacity: 1;
     }
@@ -173,7 +175,8 @@ p{
 
 h1 {
     font-weight: lighter;
-    font-size: var(--Title3);
+    font-size: var(--Title4);
+    color: var(--offblack);
 }
 
 .highlight {
@@ -182,10 +185,11 @@ h1 {
 }
 
 p {
-    font-size: 24px;
-    line-height: 40px;
+    margin-top: -5em;
+    font-size: var(--Paragraphs);
+    line-height: var(--mg2);
     font-weight: 200;
-    color: #303030;
+    color: #3030308a;
 }
 
 .img {
@@ -194,7 +198,7 @@ p {
     width: 80vh;
     background: url(/images/hero02.png) no-repeat 100% 100%;
     background-size: cover;
-    margin: 147px auto;
+    margin: 21.6vh auto;
 }
 
 
