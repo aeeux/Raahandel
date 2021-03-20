@@ -46,36 +46,42 @@
 
 /* Extras */
 
+.bd-grid{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+
 h1{
     font-family: 'Montserrat', 700;
     margin: 0px auto;
     display: table;
     font-size: 26px;
-    padding: 40px 0px;
-    color: #002e5b;
+    padding: var(--mg2) 0px;
+    color: var(--offwhite);
     text-align: center;
 }
 
 h2{
     font-family: 'Montserrat', 600;
-    font-size: 18px;
+    font-size: var(--mg1);
     font-weight: 500;
-    color: #002e5b;
-    border-bottom: 1px solid #fde428;
+    color: var(--orange);
+    border-bottom: 1px solid var(--orange);
     display: table;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    padding-bottom: var(--mg1);
+    margin-bottom: var(--mg1);
 }
 
 p{
     font-family: 'Montserrat', 400;
     font-size: 14px;
     line-height: 22px;
-    color: #7c7c7c;
+    color: var(--offwhite);
     text-align: justify;
 }
 
-
+/* Body + HTML */
 
 * {
     text-decoration: none;
@@ -85,13 +91,39 @@ p{
     outline: none;
   }
 
+  html,
   body {
+    height: 100%;
     margin: 0px;
     padding: 0px;
     font-family: "montserrat", sans-serif;
+    background: #fafafa;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+    
+    body {
+        overflow: hidden;
+        width: 100%;
     }
 
 /* Index.html */
+
+#section-a .bg-image{
+    position: absolute;
+    background-image: url("/images/hero01.png");
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+    opacity: 1;
+    }
 
   section {
     width: 100%;
@@ -114,7 +146,7 @@ p{
   
   @media only screen and (max-width: 1440px) {
     section {
-      max-width: 95%;
+      max-width: 100%;
     }
   }
   
@@ -125,24 +157,6 @@ p{
   }
 
 /* Index.html with Smooth Scroll */
-
-html {
-    overflow-x: hidden;
-}
-
-html,
-body {
-    margin: 0;
-    padding: 0;
-    background: #161616;
-    color: #fff;
-    font-family: "Neue Machina";
-}
-
-body {
-    overflow: hidden;
-    width: 100%;
-}
 
 .smooth-scroll-wrapper {
     position: fixed;
@@ -158,22 +172,29 @@ body {
 }
 
 h1 {
-    font-size: 80px;
+    font-weight: lighter;
+    font-size: var(--Title3);
+}
+
+.highlight {
+    font-weight: lighter;
+    color: var(--orange);
 }
 
 p {
     font-size: 24px;
     line-height: 40px;
     font-weight: 200;
-    color: rgba(255, 255, 255, 0.6);
+    color: #303030;
 }
 
 .img {
-    width: 100%;
-    height: 300px;
-    background: url(hero-img.jpg) no-repeat 50% 50%;
+    float: right;
+    height: 60vh;
+    width: 80vh;
+    background: url(/images/hero02.png) no-repeat 100% 100%;
     background-size: cover;
-    margin: 40px auto;
+    margin: 147px auto;
 }
 
 
@@ -181,6 +202,6 @@ p {
 
 @media only screen and (min-width: 768px) {
     body {
-      background-color: lightblue;
+      background-color: #fafafa;
     }
   }
