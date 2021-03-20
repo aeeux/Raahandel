@@ -1,0 +1,184 @@
+/* Insert import font */
+
+
+/* -----Variables----- */
+
+/* Colors */
+
+:root{
+    --orange: #ffa500;
+    --offblack: #303030;
+    --offwhite: #fafafa;
+    --lightgrey: #F0F0F0;
+    --darkgrey: #E0E0E0;
+}
+
+/* Margins */
+
+:root{
+    --mg1: 1em;
+    --mg2: 2em;
+    --mg3: 3em;
+    --mg4: 4em;
+    --mg5: 5em;
+    --mg6: 6em;
+}
+
+/* Fonts */
+
+:root{
+    --font_about: 3.625em;
+    --font_contact: 3.125em;
+    --Title1: 6.25em;
+    --Title2: 5em;
+    --Title3: 3.8125em;
+    --desc: 5em; /*unknown*/
+    --info: 6em; /*unknown*/
+}
+
+/* Zindex */
+
+:root{
+    --back: 1;
+    --middle: 5;
+    --front: 10;
+}
+
+/* Extras */
+
+h1{
+    font-family: 'Montserrat', 700;
+    margin: 0px auto;
+    display: table;
+    font-size: 26px;
+    padding: 40px 0px;
+    color: #002e5b;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Montserrat', 600;
+    font-size: 18px;
+    font-weight: 500;
+    color: #002e5b;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: 'Montserrat', 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7c7c7c;
+    text-align: justify;
+}
+
+
+
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+  }
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "montserrat", sans-serif;
+    }
+
+/* Index.html */
+
+/*
+  section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: table;
+    position: relative;
+  }
+  */
+
+  h1 span {
+    font-weight: 500;
+  }
+  
+  .content {
+    display: table;
+    margin-bottom: 60px;
+    width: 900px;
+  }
+
+
+
+
+
+
+
+  /*--------------------MIT----------------*/
+
+  body, #body_bg{
+    background-color: #303030;
+  }
+
+  h1, .omos_overskrift{
+    padding-top: 180px;
+    color: #FAFAFA;
+    font-size: 3em;
+
+  }
+
+  .omos_overskrift2{
+    margin-top: -40px;
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 3em;
+
+  }
+
+
+  #section-a .bg-image{
+    position: absolute;
+    background-image: url("/images/omoshero01.png");
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+    opacity: 1;
+    }
+
+    .highlight {
+        font-weight: lighter;
+        color: var(--orange);
+            /*--just added--*/
+        text-decoration: underline;
+        text-decoration-color: #FFA500;
+        text-underline-offset: 6px;
+        /*--------------*/
+    }
+
+    
+    
+    
+        .form-title{
+            margin-top: 600px;
+            text-align: center;
+            color: #FAFAFA;
+            font-size: 3em;
+            text-decoration-color: #FFA500;
+            text-underline-offset: 15px;
+            text-decoration: underline;
+            text-decoration-color: #FFA500;
+            text-underline-offset: 6px;
+        
+        }
+    
+        
+    
+        
