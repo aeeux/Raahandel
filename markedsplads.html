@@ -6,17 +6,63 @@
         <title>Råhandel</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="/css/markedsplads.css">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
         </style>
     </head>
-    <body>
+    <body id="body_bg">
+      
+
+        <img class="background-pic" src="background-pic.jpg" alt="Råhandel">
+   
         
 
+        <div class="row">
+          <div class="column">
+            <h2>Produkter</h2>
+            
+            <div class="navigation">
+                <input class="søg" type="text" placeholder="Søg">
+              </div>
+      <div class="filter-ny">       
+<select  name="Filter">
+  <option value="ny">Nyeste</option>
+  <option value="gammel">Ældste</option>
+</div>
+<div class="Filter-kategori">  
+    </select>
+         
+    <select name="Filter-kat">
+      <option value="kategori">kategorier</option>
+      <option value="føde">føde</option>
+    </div>
+  
+</select>
+          </div>
+        </div>
+     
 
+        <div class="Produktboks">
+          <div class="produkter" >
+              <img class="frugt" src="images/hero02.png" alt="">
+            <p ><span class="highlights"> Produceret af Anders Due </span> <br> <span class="bold "> Snoremark æblemjød, hyben</span> <br>
+            <span class="utydelig">8 x 500 L / 14,5 % / Dessertvin</span> </p>
+           
+            <p>680,00kr./kolli <br> <span class="lille"> 85,00kr / enhed </span></p>
+          </div>
+          <div class="produkter" >
+            <h2>Column 2</h2>
+            <p>Some text..</p>
+          </div>
+          <div class="produkter">
+            <h2>Column 3</h2>
+            <p>Some text..</p>
+          </div>
+        </div>       
+        
 
-        <!-- Scripts -->
+        
         <script src="js/main.js" async defer></script>
     </body>
 </html>
