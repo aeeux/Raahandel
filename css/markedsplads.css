@@ -1,18 +1,65 @@
 * {
     box-sizing: border-box;
     font-family: 'Montserrat';
-  }
- 
-
-  
-  body, #body_bg{
-    background-color: #303030;
     
   }
+
+
+ 
+  body, #body_bg{
+    background-color: #303030;
+    }
+    h1{
+        color: white;
+    }
+
+
+.logo img {
+    margin-top: 1em;
+    max-width: 7%;  
+    height: auto;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.header-skrift {
+    position: absolute;
+    top: 40px;
+    left: 19%;
+
+}
+.slash {
+    color: #ffa500;
+}
+  a {
+    color: #ffa500;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-position {
+      position: absolute;
+    left: 52%;
+    top: 65px;
+    overflow: hidden;
+    
+  
+  }
+
+  .nav-position2 {
+    position: absolute;
+  left: 69%;
+  top: 65px;
+  overflow: hidden;
+}
 .background-pic {
     width: 100%;
     height: auto;
 }
+
 .overskrift {
     position: absolute;
     top: 230px;
@@ -20,9 +67,12 @@
     font-size: 60px;
     text-align: center;
 }
+
+
 .overskriftgul {
     color: #ffa500;
 }
+
   .column {
 
     width: 50%;
@@ -45,6 +95,7 @@
   }
   .søg{
       width: 300px;
+      display: flexbox;
   }
   .filter-ny{
 float: right;
@@ -66,7 +117,6 @@ margin-right: 10%;
     float: left;
     width: 28%;
     padding: 10px;
-    padding-bottom: 10px;
     margin-left: 20px;
     height: 400px;
       background-color: white;

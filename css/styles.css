@@ -417,12 +417,20 @@ header nav ul li a {
     }
 }
 
+/* Contactformular */
+
+.contact_title{
+  font-size: var(--Title5);
+  color: var(--offblack);
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
   /*background for form*/
   .opret-form {
     background-color: transparent;
     position: relative;
-
-;
   }
   
   .opretlink, a{
@@ -440,8 +448,6 @@ header nav ul li a {
     max-width: 60em;
     margin: auto;
     text-align: center;
-
-
   }
 
 
@@ -466,7 +472,7 @@ margin-left: 13%;  }
     border: 1px solid #ffa500;
     background: none;
     padding: 0.6rem 1.2rem;
-    color: #fff;
+    color: var(--offblack);
     font-weight: 500;
     font-size: 0.95rem;
     letter-spacing: 0.5px;
@@ -490,7 +496,7 @@ margin-left: 13%;  }
     left: 15px;
     transform: translateY(-50%);
     padding: 0 0.4rem;
-    color: #fafafa;
+    color: var(--offblack);
     font-size: 0.9rem;
     font-weight: 400;
     pointer-events: none;
@@ -524,7 +530,7 @@ margin-left: 13%;  }
 
   .btn_opret:hover {
     background-color: transparent;
-    color: #fff;
+    color: var(--offblack);
   }
   
   /*gives the title effect*/
@@ -549,7 +555,7 @@ margin-left: 13%;  }
     opacity: 0;
     transition: 0.3s;
     height: 5px;
-    background-color: #303030;
+    background-color: var(--offwhite);
     top: 50%;
     transform: translateY(-50%); /*:-)*/
   }
