@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat';
   }
  
 
@@ -12,7 +13,16 @@
     width: 100%;
     height: auto;
 }
-
+.overskrift {
+    position: absolute;
+    top: 230px;
+    left: 36%;
+    font-size: 60px;
+    text-align: center;
+}
+.overskriftgul {
+    color: #ffa500;
+}
   .column {
 
     width: 50%;
@@ -21,6 +31,7 @@
     text-align: center;
     margin: auto;
     background-color: white;
+    margin-top: 50px;
     margin-bottom: 50px;
   }
   /* Clear floats after the columns */
@@ -37,7 +48,7 @@
   }
   .filter-ny{
 float: right;
-margin-right: 12%;
+margin-right: 10%;
 
 
   }
@@ -55,6 +66,7 @@ margin-right: 12%;
     float: left;
     width: 28%;
     padding: 10px;
+    padding-bottom: 10px;
     margin-left: 20px;
     height: 400px;
       background-color: white;
@@ -73,7 +85,7 @@ opacity: 50%;
 }
 
 .lille {
-    font-style: 5px;
+    font-size: 10px;
 }
 
   .produktboks { 
