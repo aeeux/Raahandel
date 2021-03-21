@@ -33,6 +33,8 @@
     --Title2: 5em;
     --Title3: 3.8125em;
     --Title4: 3em;
+    --Title5: 2em;
+    --Title6: 1.5em;
     --Paragraphs: 1em;
     --desc: 5em; /*unknown*/
     --info: 6em; /*unknown*/
@@ -48,10 +50,8 @@
 
 /* Extras */
 
-.bd-grid{
-    display: grid;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
+::-webkit-scrollbar {
+	display: none;		
 }
 
 h1{
@@ -70,7 +70,6 @@ h2{
     color: var(--orange);
     border-bottom: 1px solid var(--orange);
     display: table;
-    padding-bottom: var(--mg1);
     margin-bottom: var(--mg1);
 }
 
@@ -192,6 +191,46 @@ p {
     color: #3030308a;
 }
 
+.btn_marketplace {
+    font-size: larger;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #fafafa;
+    background-color: #ffa500;
+    border-radius: 30px;
+    border: solid 5px #ffa500;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn_marketplace:hover {
+    color: var(--offwhite);
+    background-color: var(--offblack);
+    border: solid 5px var(--offblack);
+    transition: 0.3s;
+
+}
+
+.btn_more {
+    font-size: larger;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #fafafa;
+    background-color: #ffa500;
+    border-radius: 30px;
+    border: solid 5px #ffa500;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn_more:hover {
+    color: var(--offwhite);
+    background-color: var(--offblack);
+    border: solid 5px var(--offblack);
+    transition: 0.3s;
+
+}
+
 .img {
     float: right;
     height: 60vh;
@@ -199,6 +238,47 @@ p {
     background: url(/images/hero02.png) no-repeat 100% 100%;
     background-size: cover;
     margin: 21.6vh auto;
+}
+
+/* Info section */
+
+.info_title{
+    font-size: var(--Title5);
+    color: var(--offblack);
+    margin-top: 2em;
+    margin-left: 3.5em;
+}
+
+.info_subtitle {
+    font-size: var(--Title6);
+    color: var(--offblack);
+    margin-top: 2em;
+    margin-left: 3.5em;
+}
+
+.info_text {
+    font-size: var(--Paragraphs);
+    color: var(--offblack);
+    margin-top: 2em;
+    margin-left: 3.5em;
+}
+
+.imginfo {
+    float: right;
+    height: 55.2vh;
+    width: 60vh;
+    background: url(/images/Path-blob-01.png) no-repeat 100% 100%;
+    background-size: cover;
+    margin: 1.6vh auto;
+}
+
+.imginfohands {
+    float: left;
+    height: 30vh;
+    width: 48.4vh;
+    background: url(/images/3dhands.png) no-repeat 100% 100%;
+    background-size: cover;
+    margin: 10.6vh auto auto 100px;
 }
 
 
