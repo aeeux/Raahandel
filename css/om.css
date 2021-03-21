@@ -88,6 +88,7 @@ p{
     padding: 0px;
     font-family: "montserrat", sans-serif;
     }
+    
 
     /*Navigation*/
 header{
@@ -308,6 +309,7 @@ header nav ul li a{
     justify-content: center;
     margin-left: 14em;
     margin-bottom: 2em;
+    border-radius: 10px;
     
 }
 
