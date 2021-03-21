@@ -69,7 +69,7 @@ p{
     font-family: 'Montserrat', 400;
     font-size: 14px;
     line-height: 22px;
-    color: #7c7c7c;
+    color: #fff;
     text-align: justify;
 }
 
@@ -88,6 +88,79 @@ p{
     padding: 0px;
     font-family: "montserrat", sans-serif;
     }
+    
+
+    /*Navigation*/
+header{
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  padding: 0 100px; 
+  background: #ffa500; 
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+/*logo in the navigation*/
+header .logo{
+  color: #303030; 
+  height: 50px; 
+  line-height: 50px; 
+  font-size: 18px; 
+  float: left; 
+  font-weight: bold; 
+}
+
+header nav{
+  float: right; 
+}
+
+.logo img{
+  margin-top: 0.36em;
+  max-width: 30%;  
+height: auto;
+}
+
+header nav ul li a.active{
+  text-decoration: underline;}
+
+/*hover effect and location effect*/
+header nav ul li a:hover,
+header nav ul li a.active{
+  color: #fafafafa; 
+  
+}
+
+header nav ul{
+  margin: 0; 
+  padding: 0; 
+  display: flex; 
+}
+
+header nav ul li{
+  list-style: none; 
+}
+
+header nav ul li a{
+  height: 50px; 
+  line-height: 50px;
+  padding: 0 20px; 
+  color: #303030;
+  text-decoration: none; 
+  display: block; 
+}
+
+
+
+/*added the bruger menu and removed it for desktop*/
+.burger-menu{
+  color: #fff; 
+  float: right; 
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer; 
+  display: none; 
+}
 
 /* Index.html */
 
@@ -124,7 +197,7 @@ p{
   }
 
   h1, .omos_overskrift{
-    padding-top: 180px;
+    padding-top: 320px;
     color: #FAFAFA;
     font-size: 3em;
 
@@ -151,6 +224,7 @@ p{
     height: 800px;
     z-index: -1;
     opacity: 1;
+    margin-top: 50px;
     }
 
     .highlight {
@@ -167,7 +241,7 @@ p{
     
     
         .form-title{
-            margin-top: 600px;
+            margin-top: 400px;
             text-align: center;
             color: #FAFAFA;
             font-size: 3em;
@@ -176,9 +250,113 @@ p{
             text-decoration: underline;
             text-decoration-color: #FFA500;
             text-underline-offset: 6px;
-        
+            margin-bottom: 100px;
         }
     
-        
+
+.circle {
+  width: 700px;
+  height: 900px;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 50%;
+  border-style: solid;
+  background: #303030;
+  border-color: #FFA500;
+  margin: auto;
+}
+
+.circle h3{
+  padding-top: 80px ;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 160px;
+  margin-right: 80px;
+  line-height: 40px;
+
+}
+
+.omos {
+  font-weight: bold;
+  color: var(--orange);
+  text-decoration-color: #FFA500;
+  
+}
+
+.form-titles{
+  margin-top: 150px;
+  text-align: center;
+  color: #FAFAFA;
+  font-size: 3em;
+  text-decoration-color: #FFA500;
+  text-underline-offset: 15px;
+  text-decoration: underline;
+  text-decoration-color: #FFA500;
+  text-underline-offset: 6px;
+  margin-bottom: 100px;
+}
     
+.produkter {
+  float: left;
+  width: 30%;
+  padding: 10px 10px 10px 10px;
+  height: 200px;
+    background-color: white;
+    box-sizing: border-box;
+    border: #303030 solid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    
+}
+
+#column5 {
+  margin-left: 35em;
+}
+
+.img {
+  width: 40%;
+  margin: 0;
+}
+
+.column{
+  position: absolute;
+  text-align: center;
+  margin-left: 12em;
+  margin-top: -170px;
+}
+
+.produkter p{
+  margin-left: 15.5em;
+  margin-top: -150px;
+  color: blue;
+}
+
+.produkter h5 {
+  margin-left: 16.5em;
+  margin-top: 50px;
+  color: #303030;
+  opacity: 70%;
+}
+
+.produkter h6{
+  margin-left: 20.5em;
+  margin-top: 5px;
+  color: #303030;
+  opacity: 70%;
+}
+
+.produkter a img{
+  width: 6%;
+  margin-left: 13.7em;
+  margin-top: 10px;
+  opacity: 60%;
+}
+
+
+
+
         
