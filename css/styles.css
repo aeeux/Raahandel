@@ -286,7 +286,8 @@ p {
 /* Header + Menu */
 
 /*Navigation*/
-header{
+
+header {
     position: fixed; 
     top: 0; 
     left: 0; 
@@ -298,7 +299,7 @@ header{
 }
 
 /*logo in the navigation*/
-header .logo{
+header .logo {
     color: #303030; 
     height: 50px; 
     line-height: 50px; 
@@ -307,11 +308,11 @@ header .logo{
     font-weight: bold; 
 }
 
-header nav{
+header nav {
     float: right; 
 }
 
-.logo img{
+.logo img {
     margin-top: 1em;
     max-width: 30%;  
     height: auto;
@@ -327,22 +328,22 @@ header nav ul li a.active {
 
 /*hover effect and location effect*/
 header nav ul li a:hover,
-header nav ul li a.active{
+header nav ul li a.active {
     color: #fafafafa; 
     
 }
 
-header nav ul{
+header nav ul {
     margin: 0; 
     padding: 0; 
     display: flex; 
 }
 
-header nav ul li{
+header nav ul li {
     list-style: none; 
 }
 
-header nav ul li a{
+header nav ul li a {
     margin-top: 1em;
     height: 50px; 
     line-height: 50px;
@@ -355,7 +356,7 @@ header nav ul li a{
 
 
 /*added the bruger menu and removed it for desktop*/
-.burger-menu{
+.burger-menu {
     color: #fff; 
     float: right; 
     line-height: 50px;
@@ -377,19 +378,20 @@ header nav ul li a{
 
 
  @media (max-width: 990px){
-    header{
+    header {
         padding: 0 20px;
     }
 
-    header nav ul li a.active{
-        color: #FFA500;}
+    header nav ul li a.active {
+        color: #FFA500;
+    }
 
-    .burger-menu{
+    .burger-menu {
         display: block;
     }
 
 /*makes the burger menu usable (on smaller devices)*/
-    header nav{
+    header nav {
         position: absolute; 
         width: 100%;
         height: calc(100vh - 50px); 
@@ -400,26 +402,20 @@ header nav ul li a{
         transition: 0.5s; 
     }
 
-    header nav.active{
+    header nav.active {
         left: 0;
     }
 
-    header nav ul{
+    header nav ul {
         display: block; 
         text-align: center; 
     }
 
-    header nav ul li a{
+    header nav ul li a {
         border-bottom: 1px solid #333333; 
         color: #fafafa;
     }
 }
-
-
-
-
-
-
 
   /*background for form*/
   .opret-form {
