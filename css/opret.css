@@ -153,6 +153,12 @@ header nav{
     float: right; 
 }
 
+.logo img{
+    margin-top: 0.36em;
+    max-width: 30%;  
+height: auto;
+}
+
 header nav ul li a.active{
     text-decoration: underline;}
 
@@ -421,6 +427,13 @@ margin-left: 13%;  }
 /*other formats*/
   
   @media (min-width: 765px){
+
+    .logo img{
+        margin-top: 0.36em;
+        max-width: 35%;  
+    height: auto;
+    }
+
     body, #body_bg{
         background-color: #303030;
       }
