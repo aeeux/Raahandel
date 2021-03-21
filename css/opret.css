@@ -128,6 +128,72 @@ p{
     background-color: #303030;
   }
 
+  /*Navigation*/
+header{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    padding: 0 100px; 
+    background: #ffa500; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+/*logo in the navigation*/
+header .logo{
+    color: #303030; 
+    height: 50px; 
+    line-height: 50px; 
+    font-size: 18px; 
+    float: left; 
+    font-weight: bold; 
+}
+
+header nav{
+    float: right; 
+}
+
+header nav ul li a.active{
+    text-decoration: underline;}
+
+/*hover effect and location effect*/
+header nav ul li a:hover,
+header nav ul li a.active{
+    color: #fafafafa; 
+    
+}
+
+header nav ul{
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+}
+
+header nav ul li{
+    list-style: none; 
+}
+
+header nav ul li a{
+    height: 50px; 
+    line-height: 50px;
+    padding: 0 20px; 
+    color: #303030;
+    text-decoration: none; 
+    display: block; 
+}
+
+
+
+/*added the bruger menu and removed it for desktop*/
+.burger-menu{
+    color: #fff; 
+    float: right; 
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer; 
+    display: none; 
+}
+
   h1, .opret_overskrift{
     padding-top: 180px;
     color: #FAFAFA;
@@ -413,3 +479,48 @@ margin-left: 13%;  }
             color: #FFA500;
         }
     }    
+
+
+
+ /* NAVIGATION*/
+
+
+
+@media (max-width: 990px){
+    header{
+        padding: 0 20px;
+    }
+
+    header nav ul li a.active{
+        color: #FFA500;}
+
+    .burger-menu{
+        display: block;
+    }
+
+/*makes the burger menu usable (on smaller devices)*/
+    header nav{
+        position: absolute; 
+        width: 100%;
+        height: calc(100vh - 50px); 
+        background: #303030;
+        z-index: 2; 
+        top: 50px; 
+        left: -100%; 
+        transition: 0.5s; 
+    }
+
+    header nav.active{
+        left: 0;
+    }
+
+    header nav ul{
+        display: block; 
+        text-align: center; 
+    }
+
+    header nav ul li a{
+        border-bottom: 1px solid #333333; 
+        color: #fafafa;
+    }
+}

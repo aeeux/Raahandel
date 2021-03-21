@@ -7,8 +7,32 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/opret.css">
+        <script src="https://kit.fontawesome.com/06755d9ca7.js"></script> 
     </head>
     <body id="body_bg">
+
+
+
+
+    <header>
+ 
+    <div class="logo"> Raahandel</div>
+ 
+    <nav >
+    <ul>
+        <li><a  href="index.html">Hjem</a></li>
+        <li><a href="erhverv.html">Producent og erhverv</a></li>
+        <li><a href="om.html">Om os</a></li>
+        <li><a class="active" href="opret.html">Opret dig</a></li>
+    </ul>
+    
+    <!--the burger menu-->
+    </nav>
+    <div class="burger-menu"><i class="fas fa-bars"></i></div>
+    </header>
+
+
+
 
         <section id="section-a">
 
@@ -75,11 +99,17 @@
             <label class="formnavn" for="">Evt. kommentarer & spørgsmål</label>
             <span class="formnavn">Evt. kommentarer & spørgsmål</span>
           </div>
-          <input type="submit" value="Send" class="btn_opret" />
+          <input type="submit" value="Opret dig" class="btn_opret" />
         </form>
       </div>
     </div>
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){ 
+    $('.burger-menu').click(function(){ /*makes it posible to click on the burger menu and adds a function to it*/
+    $('nav').toggleClass('active')}) })</script>  <!--the elemtent "nav" will be shown-->
 
   <script src="js/main.js"></script>
     
