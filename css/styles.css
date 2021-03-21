@@ -281,6 +281,86 @@ p {
     margin: 10.6vh auto auto 100px;
 }
 
+/* Header + Menu */
+
+/*Navigation*/
+header{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    padding: 0 200px; 
+    background: var(--offwhite); 
+    width: 100%; 
+    box-sizing: border-box; 
+    z-index: var(--front);
+}
+
+/*logo in the navigation*/
+header .logo{
+    color: #303030; 
+    height: 50px; 
+    line-height: 50px; 
+    font-size: 18px; 
+    float: left; 
+    font-weight: bold; 
+}
+
+header nav{
+    float: right; 
+}
+
+.logo img{
+    margin-top: 1em;
+    max-width: 30%;  
+    height: auto;
+}
+
+header nav ul li a.active {
+    margin-top: 1em;
+    padding: 2px 10px 0px 10px;
+    background-color: var(--orange);
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/*hover effect and location effect*/
+header nav ul li a:hover,
+header nav ul li a.active{
+    color: #fafafafa; 
+    
+}
+
+header nav ul{
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+}
+
+header nav ul li{
+    list-style: none; 
+}
+
+header nav ul li a{
+    margin-top: 1em;
+    height: 50px; 
+    line-height: 50px;
+    padding: 0 20px; 
+    color: #303030;
+    text-decoration: none; 
+    display: block; 
+}
+
+
+
+/*added the bruger menu and removed it for desktop*/
+.burger-menu{
+    color: #fff; 
+    float: right; 
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer; 
+    display: none; 
+}
 
 /* PC Query */
 
@@ -289,3 +369,46 @@ p {
       background-color: #fafafa;
     }
   }
+
+ /* NAVIGATION*/
+
+
+
+ @media (max-width: 990px){
+    header{
+        padding: 0 20px;
+    }
+
+    header nav ul li a.active{
+        color: #FFA500;}
+
+    .burger-menu{
+        display: block;
+    }
+
+/*makes the burger menu usable (on smaller devices)*/
+    header nav{
+        position: absolute; 
+        width: 100%;
+        height: calc(100vh - 50px); 
+        background: #303030;
+        z-index: 2; 
+        top: 50px; 
+        left: -100%; 
+        transition: 0.5s; 
+    }
+
+    header nav.active{
+        left: 0;
+    }
+
+    header nav ul{
+        display: block; 
+        text-align: center; 
+    }
+
+    header nav ul li a{
+        border-bottom: 1px solid #333333; 
+        color: #fafafa;
+    }
+}
