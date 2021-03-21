@@ -231,12 +231,14 @@ header nav ul li a{
     opacity: 1;
     }
 
-
+    #logind{
+font-size: 1.5em;
+    }
     .form-title{
         margin-top: 600px;
         text-align: center;
         color: #FAFAFA;
-        font-size: 1.8em;
+        font-size: 1.6em;
         text-decoration-color: #FFA500;
         text-underline-offset: 15px;
     }
@@ -263,7 +265,10 @@ header nav ul li a{
 ;
   }
   
-
+  .opretlink, a{
+    text-decoration: none;
+    color: #FFA500;
+}
 
   
   form {
@@ -436,6 +441,11 @@ margin-left: 13%;  }
 
     body, #body_bg{
         background-color: #303030;
+      }
+
+      .opretlink, a{
+          text-decoration: none;
+          color: #FFA500;
       }
     
       h1, .opret_overskrift{

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/opret.css">
+        <script src="https://kit.fontawesome.com/06755d9ca7.js"></script> 
+    </head>
+    <body id="body_bg">
+
+
+
+
+    <header>
+ 
+    <div class="logo"> <img src="råLogo.png" alt=""></div>
+ 
+    <nav >
+    <ul>
+        <li><a  href="index.html">Hjem</a></li>
+        <li><a href="erhverv.html">Producent og erhverv</a></li>
+        <li><a href="om.html">Om os</a></li>
+        <li><a class="active" href="opret.html">Opret dig</a></li>
+    </ul>
+    
+    <!--the burger menu-->
+    </nav>
+    <div class="burger-menu"><i class="fas fa-bars"></i></div>
+    </header>
+
+
+
+
+        <section id="section-a">
+
+            <div class="bg-image"></div>
+        <h1 id="logind" class="opret_overskrift">Velkommen tilbage </h1>
+        <div class="h2_div">
+        <h2 id="logind" class="opret_overskrift2">& godt at se dig igen!</h2>
+    </div>
+    </section>
+
+
+
+    <section id="section-b">
+
+        <h2 class="form-title">Log ind her!</h2>
+        <h5 class="log-ind-title">...Eller <span class="log-ind"><a class="opretlink" href="opret.html">opret dig her </a></span></h5>
+    </section>
+
+
+
+
+    <div class="opret-form">
+
+
+        <form action="#" autocomplete="off">
+
+          <div class="input-container">
+            <input type="email" name="email" class="input" />
+            <label class="formnavn" for="">E-mail</label>
+            <span class="formnavn">E-mail</span>
+          </div>
+
+          <div class="input-container">
+            <input type="text" name="Kode" class="input" />
+            <label class="formnavn" for="">Kode</label>
+            <span class="formnavn" >Kode</span>
+          </div>
+
+
+          <input type="submit" value="Log ind" class="btn_opret" />
+        </form>
+      </div>
+    
+  
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){ 
+    $('.burger-menu').click(function(){ /*makes it posible to click on the burger menu and adds a function to it*/
+    $('nav').toggleClass('active')}) })</script>  <!--the elemtent "nav" will be shown-->
+
+  <script src="js/main.js"></script>
+    
+    </body>
+</html>
