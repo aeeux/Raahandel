@@ -213,8 +213,9 @@ p {
 
 .btn_more {
     font-size: larger;
+    margin-left: 5em;
     margin-top: 20px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 30px 10px 30px;
     color: #fafafa;
     background-color: #ffa500;
     border-radius: 30px;
@@ -252,15 +253,16 @@ p {
 .info_subtitle {
     font-size: var(--Title6);
     color: var(--offblack);
-    margin-top: 2em;
+    margin-top: -2em;
     margin-left: 3.5em;
 }
 
 .info_text {
     font-size: var(--Paragraphs);
-    color: var(--offblack);
-    margin-top: 2em;
-    margin-left: 3.5em;
+    color: #303030a1;
+    line-height: 1.5em;
+    margin-top: -2em;
+    margin-left: 6em;
 }
 
 .imginfo {
