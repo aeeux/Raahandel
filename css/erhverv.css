@@ -109,7 +109,7 @@ p{
         width: 100%;
     }
 
-/* Index.html */
+/* erhverv.html */
 
 .img {
   float: right;
@@ -121,16 +121,16 @@ p{
 
 #herosection .bg-image{
     position: absolute;
-    background-image: url("/images/hero01.png");
+    background-image: url("/images/hero3.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 21.6vh auto;
-    margin-top: 1%;
-    margin-left: 58vh;
-    height: 100vh;
-    width: 85%;
+    margin-top: -2em;
+    margin-left: -50em;
+    width: 240%;
+    height: 90vh;
     z-index: -1;
+    opacity: 1;
     }
 
   section {
@@ -182,12 +182,21 @@ p{
 h1 {
     font-weight: lighter;
     font-size: var(--Title4);
-    color: var(--offblack);
+    color: var(--offwhite);
+}
+
+.herotxt {
+    font-weight: lighter;
+    font-size: var(--Title3);
+    color: var(--offwhite);
+    text-align: center;
+    margin: 15vh 40vh;
 }
 
 .highlight {
     font-weight: lighter;
     color: var(--orange);
+    border-bottom: 1px solid var(--orange);
 }
 
 p {
@@ -195,7 +204,7 @@ p {
     font-size: var(--Paragraphs);
     line-height: var(--mg2);
     font-weight: 200;
-    color: #3030308a;
+    color: #fafafa8a;
 }
 
 .btn_marketplace {
@@ -267,7 +276,7 @@ p {
     float: right;
     height: 55.2vh;
     width: 60vh;
-    background: url(/images/Path-blob-01.png) no-repeat 100% 100%;
+    background: url("/images/Path-blob-01.png") no-repeat 100% 100%;
     background-size: cover;
     margin: 1.6vh auto;
 }
@@ -276,7 +285,7 @@ p {
     float: left;
     height: 30vh;
     width: 48.4vh;
-    background: url(/images/3dhands.png) no-repeat 100% 100%;
+    background: url("/images/3dhands.png") no-repeat 100% 100%;
     background-size: cover;
     margin: 10.6vh auto auto 100px;
 }
