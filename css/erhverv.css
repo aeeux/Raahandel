@@ -229,7 +229,7 @@ p {
 
 .btn_more {
     font-size: larger;
-    margin-left: 5em;
+    margin-left: 14em;
     margin-top: 20px;
     padding: 10px 30px 10px 30px;
     color: #fafafa;
@@ -253,15 +253,15 @@ p {
 .info_title{
     font-size: var(--Title5);
     color: var(--offblack);
-    margin-top: 2em;
-    margin-left: 3.5em;
+    margin-left: 9.5em;
+    margin-bottom: 1em;
 }
 
 .info_subtitle {
     font-size: var(--Title6);
     color: var(--offblack);
     margin-top: -2em;
-    margin-left: 3.5em;
+    margin-left: 11em;
 }
 
 .info_text {
@@ -269,25 +269,47 @@ p {
     color: #303030a1;
     line-height: 1.5em;
     margin-top: -2em;
-    margin-left: 6em;
+    margin-left: 18em;
 }
 
 .imginfo {
-    float: right;
     height: 55.2vh;
-    width: 60vh;
-    background: url("/images/Path-blob-01.png") no-repeat 100% 100%;
+    width: 70vh;
+    background: url("/images/blob-person01.png") no-repeat 100% 100%;
     background-size: cover;
-    margin: 1.6vh auto;
+    margin: 0 auto;
 }
 
-.imginfohands {
-    float: left;
-    height: 30vh;
-    width: 48.4vh;
-    background: url("/images/3dhands.png") no-repeat 100% 100%;
+/* Infoboks2 */
+
+.info_title2 {
+    font-size: var(--Title5);
+    color: var(--offblack);
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+.info_subtitle2 {
+    font-size: var(--Title6);
+    color: var(--offblack);
+    margin-top: -2em;
+    margin-left: 6em;
+}
+
+.info_text2 {
+    font-size: var(--Paragraphs);
+    color: #303030a1;
+    line-height: 1.5em;
+    margin-top: -2em;
+    margin-left: 10em;
+}
+
+.imginfo2 {
+    height: 55.2vh;
+    width: 90vh;
+    background: url("/images/blob-person02.png") no-repeat 100% 100%;
     background-size: cover;
-    margin: 10.6vh auto auto 100px;
+    margin: 0 auto;
 }
 
 /* Header + Menu */
