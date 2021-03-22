@@ -223,8 +223,9 @@ header nav ul li a{
     width: 100%;
     height: 800px;
     z-index: -1;
-    opacity: 1;
+    opacity: 60%;
     margin-top: 50px;
+    
     }
 
     .highlight {
