@@ -43,6 +43,28 @@ body{
     text-underline-offset: 6px;
 }
 
+.tilbage-knap{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    border: none;
+    background-color: #E0E0E0;
+    color: #303030;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: -46em;
+    margin-left: -37em;
+}
+
+.tilbage-knap:hover {
+    background-color: #fafafa;
+}
+
+.tilbage-knap {border-radius: 40px;}
+
 #h2-info-boks{
     color: #303030;
     position: absolute;
@@ -91,7 +113,7 @@ body{
     text-align: left;
     float: left;
     margin-top: -18em;
-    margin-left: 7em;
+    margin-left: 5em;
 }
 
 #p-pris-inkl-moms{
@@ -103,7 +125,19 @@ body{
     text-align: left;
     float: left;
     margin-top: -18em;
-    margin-left: 45em;
+    margin-left: 37em;
+}
+
+#p-x{
+    color: #303030;
+    line-height: 1.6;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    margin-top: -19.5em;
+    margin-left: 50em;
 }
 
 .sektion-1{
@@ -186,7 +220,7 @@ body{
     font-size: 10px;
     text-align: left;
     float: left;
-    margin-top: 36em;
+    margin-top: 35em;
     margin-left: -11em;
 }
 
