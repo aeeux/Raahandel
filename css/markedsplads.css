@@ -146,6 +146,7 @@ color: #DFDFDF;
     background-color: white;
     margin-top: 50px;
     margin-bottom: 50px;
+    border: 17px;
   }
   /* Clear floats after the columns */
   .row:after {
@@ -153,11 +154,14 @@ color: #DFDFDF;
     display: table;
     clear: both;
   }
+
+
   .navigation {
       margin-right: 170px;
      
     
   }
+
   .søg{
       width: 300px;
       
@@ -175,6 +179,7 @@ margin-right: 10%;
   }
   div, .produkter {
       margin-left: 50px;
+      border-radius: 17px;
   }
 
   .produkter {
