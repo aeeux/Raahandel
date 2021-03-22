@@ -11,37 +11,57 @@
             @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
         </style>
     </head>
-    <body>
-        <header>
 
+    <body>
+        <!--HEADER-->
+        <header class="header">
+        <h1 id="header-skrift"><Span class="slash">/</Span> Markedsplads kurv</h1>
+        <a href="index.html">
+        <div class="logo"> <img src="images/råLogohvid.png" alt=""></div>
+        </a>
+        <nav >
+        <ul>
+            <li class="nav-position1"> <a href="index.html">Tilbage til Råhandel</a></li>
+            <li class="nav-position2"> <a href="">Leveringsdage</a></li>
+        </ul>
+        <button class="julie-knap"> <img class="julie" src="images/julie.jpg" alt=""></button>
+        <p class="julie-tekst">Julie Vestergaard <br>
+        Resturatør</p>
+        <button class="konto">KONTO</button>
+        <button class="log-af">LOG AF</button>
+        </nav>
         </header>
+
         <h1 id="h1" class="content">Check ud</h1>
+
         <section id="info-boks" class="content">
+        <!--GODKEND KNAP-->
         <div class="wrapper">
         <a href="markedsplads.html">
             <button class="tilbage-knap"><b>Tilbage til markedspladsen</b></button>
         </a>
         </div>
         <h2 id="h2-info-boks" class="content">Leveringsdato: 01-04-2021</h2>
-            <div class="sektion-1"></div>
-            <!--Varer-->
+        <div class="sektion-1"></div>
+            <!--VARER-->
             <p id="p-varer" class="content"><b>Vare(r)</b><br><u>Snoremark Æblemjød, Hyben</u><br><i>8 x 500 L</i><br><i>Produceret af Anders Due</i><br><br><br><u>Snoremark Æblemjød, Hyben</u><br><i>8 x 500 L</i><br><i>Produceret af Anders Due</i></p>
-            <!--Pris eksl. moms-->
+            <!--PRIS EKSL. MOMS-->
             <p id="p-pris-eksl-moms" class="content"><b>Pris eksl. moms</b><br>1.000,00 kr.<br><br><br><br><br>1.000,00 kr.<br><br></p>
-            <!--Antal-->
+            <!--ANTAL-->
             <p id="p-antal" class="content"><b>Antal</b><br>10<br><br><br><br><br>20<br><br></p>
-            <!--Pris inkl. moms-->
+            <!--PRIS INKL. MOMS-->
             <p id="p-pris-inkl-moms" class="content"><b>Pris inkl. moms</b><br>1.250,00 kr.<br><br><br><br><br>1.250,00 kr.<br><br></p>
-            <!--x-->
+            <!--X-->
             <p id="p-x" class="content"><br<br><br><br><b>x</b><br><br><br><br><br><b>x</b><br><br></p>
             </div>
             <div class="sektion-2"></div>
-            <!--Kontaktperson og betalingsmetode-->
+            <!--KONTAKTPERSON OG BETALINGSMETODE-->
             <p id="p-kontaktperson-og-betalingsmetode" class="content"><b>Kontaktperson</b><br>Navn: Anders Due<br>Mail: andersdue@raahandel.dk<br>Tlf: +45 12 34 56 78<br><br><br><b>Betalingsmetode</b><br>Faktura
-            <!--Fakturerings- og leveringsadresse-->
+            <!--FAKTURERINGS- OG LEVERINGSADRESSE-->
             <p id="p-fakturerings-og-leveringsadresse" class="content"><b>Faktureringsadresse</b><br>Råhandel ApS<br>Bognæsevej 4<br>4000 Roskilde, Danmark<br><br><br><b>Leveringsadresse</b><br>Råhandel ApS<br>Frederiksborgvej 59<br>2400 København NV, Danmark
-            </div>
+        </div>
         </section>
+
         <section id="godkend-boks" class="content">
         <h2 id="h2-godkend-boks" class="content">Ordrebekræftelse</h2>
         <div class="sektion-2">
@@ -49,14 +69,15 @@
             <p id="p-1-ud-af-2" class="content">Beløb for varerne<br>Producentgebyr<br>Levering<br>Total ekls. moms<br><br><br>Moms (25%)<br><u>Total inkls. moms</u></p>
             <!--2/2-->
             <p id="p-2-ud-af-2" class="content">2.000,00 kr.<br>0,00 kr.<br>0,00 kr.<br>2.000,00 kr.<br><br><br>500,00 kr.<br><u>2.500,00 kr.</u></p>
+            <!--GODKEND KNAP-->
             <div class="wrapper">
             <button class="godkend-knap"><b>Godkend ordre</b></button>
             </div>
-            <!--Handelsbetingelser-->
-            <p id="handelsbetingelser" class="content">* Når du godkender ordren, så godkender du<br>også vores <u>handelsbetingelser</u></p>
+            <!--HANDELSBETINGELSER-->
+            <p id="handelsbetingelser" class="content">* Når du godkender ordren, så godkender du<br>også vores <a href=""><u>handelsbetingelser</u></a></p>
         </div>
         </section>
-        <!-- Scripts -->
+        <!--SCRIPT-->
         <script src="js/main.js" async defer></script>
     </body>
 </html>
