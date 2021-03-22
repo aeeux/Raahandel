@@ -591,3 +591,36 @@ margin-left: 13%;  }
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 } 
+
+  /* ----erhverv.html---- */
+
+  #section-a .bg-image{
+    position: absolute;
+    background-image: url("/images/hero3.png");
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+    opacity: 1;
+    }
+
+    h1, .opret_overskrift{
+      padding-top: 180px;
+      color: #FAFAFA;
+      font-size: 2em;
+  
+    }
+  
+    .opret_overskrift2{
+      margin-top: -40px;
+      text-align: center;
+      color: #303030;
+      font-size: 2em;
+      text-decoration-color: #303030;
+  
+    }
+
