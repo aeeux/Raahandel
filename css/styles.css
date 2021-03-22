@@ -111,6 +111,14 @@ p{
 
 /* Index.html */
 
+.img {
+  float: right;
+  height: 60vh;
+  width: 80vh;
+  background-size: cover;
+  margin: 21.6vh auto;
+}
+
 #herosection .bg-image{
     position: absolute;
     background-image: url("/images/hero01.png");
@@ -230,15 +238,6 @@ p {
     border: solid 5px var(--offblack);
     transition: 0.3s;
 
-}
-
-.img {
-    float: right;
-    height: 60vh;
-    width: 80vh;
-    background: url(/images/hero02.png) no-repeat 100% 100%;
-    background-size: cover;
-    margin: 21.6vh auto;
 }
 
 /* Info section */
