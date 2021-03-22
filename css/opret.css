@@ -219,7 +219,7 @@ header nav ul li a{
 
   #section-a .bg-image{
     position: absolute;
-    background-image: url("obgraahandel.png");
+    background-image: url("/images/obgraahandel.png");
     display: block;
     background-position: center;
     background-repeat: no-repeat;
@@ -467,7 +467,7 @@ margin-left: 13%;  }
     
       #section-a .bg-image{
         position: absolute;
-        background-image: url("obgraahandel.png");
+        background-image: url("/images/obgraahandel.png");
         display: block;
         background-position: center;
         background-repeat: no-repeat;
