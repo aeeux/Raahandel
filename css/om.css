@@ -96,7 +96,6 @@ header{
   top: 0; 
   left: 0; 
   padding: 0 100px; 
-  background: #ffa500; 
   width: 100%; 
   box-sizing: border-box; 
 }
@@ -124,11 +123,8 @@ height: auto;
 header nav ul li a.active{
   text-decoration: underline;}
 
-/*hover effect and location effect*/
-header nav ul li a:hover,
-header nav ul li a.active{
-  color: #fafafafa; 
-  
+.opret{
+  color: #fff;
 }
 
 header nav ul{
@@ -145,7 +141,7 @@ header nav ul li a{
   height: 50px; 
   line-height: 50px;
   padding: 0 20px; 
-  color: #303030;
+  color: #FFA500;
   text-decoration: none; 
   display: block; 
 }
@@ -223,8 +219,8 @@ header nav ul li a{
     width: 100%;
     height: 800px;
     z-index: -1;
-    opacity: 60%;
-    margin-top: 50px;
+    opacity: 30%;
+    margin-top: px;
     
     }
 
