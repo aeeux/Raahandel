@@ -2,7 +2,117 @@ body{
     background-color: #303030;;
 }
 
+/*HEADER*/
+.header{
+    margin-bottom: 25em;
+}
 
+.logo img {
+    margin-top: 1em;
+    max-width: 7%;  
+    height: auto;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+  }
+  
+  #header-skrift{
+    font-family: 'Montserrat';
+    color: #fafafa;
+    position: absolute;
+    top: 40px;
+    left: 12%;
+  
+  }
+  .slash {
+    color: #ffa500;
+  }
+  
+  a{
+    font-family: 'Montserrat';
+    color: #ffa500;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  a:hover{
+    color: #FCBC46  
+  }
+  
+  .nav-position1{
+    position: absolute;
+    left: 63%;
+    top: 80px;
+    overflow: hidden;
+  }
+
+  .nav-position2{
+    position: absolute;
+    left: 75%;
+    top: 80px;
+    overflow: hidden;
+  }
+  .background-pic {
+      width: 100%;
+      height: auto;
+  }
+  
+  .julie-knap{
+      background-color: #303030;
+      border: 0px;
+      position: absolute;
+      top: 30px;
+      right: 100px;
+  }
+  
+  .julie{
+      border-radius: 100%;
+      height: 100px;
+      width: 100px;
+      border-style: dotted;
+      border-color: #ffa500;
+   }
+  
+  .julie-tekst{
+      font-family: 'Montserrat';
+      position: absolute;
+      top: 130px;
+      right: 95px;
+      text-align: center;
+      color: #fafafa;
+  }
+  
+  .konto{
+      height: 50px;
+      width: 50px;
+      border-radius: 100%;
+      border-style: dotted;
+      font-size: 8px;
+      position: absolute;
+      right: 30px;
+      top: 35px;
+      background-color: #3B3B3B;
+      border-color: #ffa500;
+      color: #fafafa;
+  }
+  
+  .log-af{
+      height: 50px;
+      width: 50px;
+      border-radius: 100%;
+      border-style: dotted;
+      font-size: 8px;
+      position: absolute;
+      right: 30px;
+      top: 90px;
+      background-color: #3B3B3B;
+      border-color: #ffa500;
+      color: #fafafa;
+  }
+
+/*CONTENT*/
 #info-boks{
     background-color: #E0E0E0;
     width: 80em;
