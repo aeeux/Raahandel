@@ -122,16 +122,15 @@ p{
 #herosection .bg-image{
     position: absolute;
     background-image: url("/images/hero01.png");
-    display: block;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 0px;
+    margin: 21.6vh auto;
+    margin-top: 1%;
     margin-left: 58vh;
-    width: 100%;
-    height: 830px;
+    height: 100vh;
+    width: 85%;
     z-index: -1;
-    opacity: 1;
     }
 
   section {
