@@ -125,6 +125,10 @@ header nav ul li a.active{
 
 .opret{
   color: #fff;
+  margin-top: em;
+  padding: 2px 10px 0px 10px;
+  background-color: var(--orange);
+  border-radius: 30px;
 }
 
 header nav ul{
