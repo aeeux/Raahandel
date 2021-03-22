@@ -254,34 +254,21 @@ header nav ul li a{
         }
     
 
-.circle {
-  width: 700px;
-  height: 900px;
-  border-top-left-radius: 40%;
-  border-top-right-radius: 30%;
-  border-bottom-right-radius: 30%;
-  border-bottom-left-radius: 50%;
-  border-style: solid;
-  background: #303030;
-  border-color: #FFA500;
-  margin: auto;
-}
 
-.circle h3{
-  padding-top: 80px ;
+
+.visionbg h3{
+  padding-top: 120px ;
   font-size: 20px;
   color: #fff;
-  margin-left: 160px;
-  margin-right: 80px;
-  line-height: 40px;
-
+  margin-left: 170px;
+  margin-right: 100px;
+  line-height: 50px;
 }
 
 .omos {
   font-weight: bold;
   color: var(--orange);
-  text-decoration-color: #FFA500;
-  
+  text-decoration-color: #FFA500; 
 }
 
 .form-titles{
@@ -355,6 +342,18 @@ header nav ul li a{
   margin-top: 10px;
   opacity: 60%;
 }
+
+/* tekstblob */
+.visionbg {
+  height: 160vh;
+  width: 100vh;
+  background: url(/images/tekstbobbel.png) no-repeat 100% 100%;
+  background-size: cover;
+  margin: 1.6vh auto;
+  z-index: -1;
+}
+
+
 
 
 
