@@ -267,9 +267,10 @@ height: 35px;
   background-color: #ffa500;
   position: absolute;
   left: 0;
+
   width: 100%;
   height: 250px;
-  float: left;
+  
 }
 
 .billed-footer {
@@ -284,8 +285,26 @@ height: 35px;
 }
 
 .kontakt {
-  box-sizing: border-box;
-  float: left;
-  width: 28%;
-  padding: 10px;
+  position: relative;
+  margin-left: 350px;
+  bottom: 150px; 
+
+    
+}
+.kontakt-os {
+  font-weight: bold;
+}
+
+.menu {
+  position: relative;
+  margin-left: 650px;
+  bottom: 300px; 
+}
+
+.footer-billede {
+  width: 400px;
+  height: auto;
+  position:absolute;
+  right: 60px;
+  bottom: 10px;
 }
