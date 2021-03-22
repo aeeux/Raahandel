@@ -49,7 +49,7 @@ body{
     font-family: 'Montserrat';
     font-size: 30px;
     text-align: center;
-    margin-top: -26em;
+    margin-top: -27em;
 }
 
 #h2-godkend-boks{
@@ -58,7 +58,7 @@ body{
     font-family: 'Montserrat';
     font-size: 30px;
     text-align: center;
-    margin-top: -12em;
+    margin-top: -14em;
 }
 
 #p-varer{
@@ -132,6 +132,62 @@ body{
     float: left;
     margin-top: 23em;
     margin-right: -20em;
+}
+
+#p-1-ud-af-2{
+    color: #303030;
+    line-height: 1.6;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    margin-top: -1em;
+    margin-left: -10em;
+}
+
+#p-2-ud-af-2{
+    color: #303030;
+    line-height: 1.6;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: right;
+    float: right;
+    margin-top: -1em;
+    margin-right: -10em;
+}
+
+.godkend-knap{
+    width: 240px;
+    height: 70px;
+    position: absolute;
+    border: none;
+    background-color: #ffa500;
+    color: #fafafa;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 12.5em;
+    margin-left: -5.3em;
+}
+
+.godkend-knap:hover {
+    background-color: #FCBC46;
+}
+
+.godkend-knap {border-radius: 40px;}
+
+#handelsbetingelser{
+    color: #303030;
+    position: absolute;
+    line-height: 1.6;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    text-align: left;
+    float: left;
+    margin-top: 36em;
+    margin-left: -11em;
 }
 
 /* -----Variables----- */
