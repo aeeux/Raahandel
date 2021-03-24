@@ -298,14 +298,14 @@ height: 35px;
 
 .menu {
   position: relative;
-  margin-left: 650px;
+  margin-left: 750px;
   bottom: 300px; 
 }
 
 .footer-billede {
-  width: 400px;
+  width: 200px;
   height: auto;
   position:absolute;
-  right: 60px;
+  right: 160px;
   bottom: 220px;
 }
