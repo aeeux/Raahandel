@@ -283,6 +283,7 @@ height: 35px;
 .copyright {
   margin-top: 50px;
   margin-left: 24px;
+  color: #DFDFDF;
  
 }
 
@@ -290,17 +291,19 @@ height: 35px;
   position: relative;
   margin-left: 350px;
   bottom: 150px; 
-
+  color: #DFDFDF;
     
 }
 .kontakt-os {
   font-weight: bold;
+  color: #DFDFDF;
 }
 
 .menu {
   position: relative;
   margin-left: 750px;
   bottom: 300px; 
+  color: #DFDFDF;
 }
 
 .footer-billede {
