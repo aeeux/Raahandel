@@ -67,7 +67,8 @@
 }
 
 .julie-knap {
-  background-color: #303030;
+  background-color: transparent;
+  
   border: 0px;
 position: absolute;
 top: 30px;
